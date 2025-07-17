@@ -1,7 +1,6 @@
 services:
   backend:
     build:
-      context: ./be-test2
       dockerfile: BeDockerfile
     ports:
       - "8080:8080"
