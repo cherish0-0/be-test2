@@ -1,5 +1,0 @@
-FROM gradle:jdk21
-
-WORKDIR /app
-
-CMD [ "sleep", "infinity" ]
